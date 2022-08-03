@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KPUNiaNM3qDkygN5biBRFv0CLECa/9s3N7+3t18EjEPo6nNyB+pMN73p/e/R/Nvk48RYchMwr7Ac+Lmv3UM0ZQ==",
+  "success": true,
+  "projectFilePath": "S:\\NareshPrj\\empRestAPI\\empRestAPI\\empRestAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ravi kumar Ranga\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

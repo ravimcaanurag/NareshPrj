@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "S:\\NareshPrj\\empRestAPI\\empRestAPI\\empRestAPI.csproj": {}
+  },
+  "projects": {
+    "S:\\NareshPrj\\empRestAPI\\empRestAPI\\empRestAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\NareshPrj\\empRestAPI\\empRestAPI\\empRestAPI.csproj",
+        "projectName": "empRestAPI",
+        "projectPath": "S:\\NareshPrj\\empRestAPI\\empRestAPI\\empRestAPI.csproj",
+        "packagesPath": "C:\\Users\\Ravi kumar Ranga\\.nuget\\packages\\",
+        "outputPath": "S:\\NareshPrj\\empRestAPI\\empRestAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravi kumar Ranga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ravirangadevapps/Cities.API/_packaging/mylibs/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

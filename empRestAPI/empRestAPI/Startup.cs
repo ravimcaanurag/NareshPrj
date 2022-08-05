@@ -29,6 +29,7 @@ namespace empRestAPI
             services.AddSingleton<IDepartment, DepartmentService>();
             services.AddSingleton<IJsonUtil, JsonService>();
             services.AddSingleton<IEmployee, EmployeeService>();
+            services.AddSingleton<ILog, LogService>();
             services.AddControllers();
            
         }

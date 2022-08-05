@@ -9,5 +9,7 @@ namespace empRestAPI.Models
     {
         public static string EMPLOYEE = "Employee.json";
         public static string DEPARTMENT = "Department.json";
+        public static string LogPath = "Logs.txt";
+
     }
 }

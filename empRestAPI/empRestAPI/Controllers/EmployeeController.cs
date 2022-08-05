@@ -20,15 +20,15 @@ namespace empRestAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddEmployee(Employee employee)
+        public async Task<IActionResult> AddEmployee(DataInput dataInput)
         {
-            var result = await employeeService.AddEmployee(employee);
+            var result = await employeeService.AddEmployee(dataInput);
             return Ok(result);
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateEmployee(Employee employee)
+        public async Task<IActionResult> UpdateEmployee(DataInput dataInput)
         {
-            var result = await employeeService.UpadteEmployee(employee);
+            var result = await employeeService.UpadteEmployee(dataInput);
             return Ok(result);
         }
         [HttpDelete("{employeeId}")]

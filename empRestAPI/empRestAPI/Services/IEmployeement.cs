@@ -8,8 +8,8 @@ namespace empRestAPI.Services
 {
     public interface IEmployee
     {
-        public Task<string> AddEmployee(Employee employee);
-        public Task<string> UpadteEmployee(Employee employee);
+        public Task<string> AddEmployee(DataInput dataInput);
+        public Task<string> UpadteEmployee(DataInput dataInput);
         public Task<string> DeleteEmployee(int EmployeeID);
         public Task<Employee> GetEmployee(int EmployeeID);
         public Task<List<Employee>> GetEmployees();

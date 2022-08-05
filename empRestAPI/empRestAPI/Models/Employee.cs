@@ -10,6 +10,12 @@ namespace empRestAPI.Models
         public int EmployeeID { get; set; }
         public string EmployeeName { get; set; }
 
-        public int DepartmentID { get; set; }
+        public List<Department> Departments { get; set; }
+
+        public Employee()
+        {
+            Departments = new List<Department>();
+        }
+
     }
 }

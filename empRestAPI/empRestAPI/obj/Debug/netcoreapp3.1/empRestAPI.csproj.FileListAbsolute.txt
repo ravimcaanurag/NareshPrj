@@ -21,3 +21,12 @@ S:\NareshPrj\empRestAPI\empRestAPI\obj\Debug\netcoreapp3.1\empRestAPI.pdb
 S:\NareshPrj\empRestAPI\empRestAPI\obj\Debug\netcoreapp3.1\empRestAPI.genruntimeconfig.cache
 S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Department.json
 S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Employee.json
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+S:\NareshPrj\empRestAPI\empRestAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+S:\NareshPrj\empRestAPI\empRestAPI\obj\Debug\netcoreapp3.1\empRestAPI.csproj.CopyComplete

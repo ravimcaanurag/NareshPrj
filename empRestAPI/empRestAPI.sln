@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empRestAPI", "empRestAPI\empRestAPI.csproj", "{282B333F-577F-41AD-90C5-E53595F30734}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpRestApI.Test", "EmpRestApI.Test\EmpRestApI.Test.csproj", "{B43D7C9C-22EA-4F52-875F-0EC7578A8525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{282B333F-577F-41AD-90C5-E53595F30734}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{282B333F-577F-41AD-90C5-E53595F30734}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{282B333F-577F-41AD-90C5-E53595F30734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43D7C9C-22EA-4F52-875F-0EC7578A8525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43D7C9C-22EA-4F52-875F-0EC7578A8525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43D7C9C-22EA-4F52-875F-0EC7578A8525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43D7C9C-22EA-4F52-875F-0EC7578A8525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

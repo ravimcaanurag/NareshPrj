@@ -15,12 +15,13 @@ namespace empRestAPI.Services
         public static string DeleteEmployee = "1004";
         public static string GetEmployees = "1005";
         public static string FetchDepartments = "1006";
+        public static string GenerateToken = "1007";
 
         public async void Log(string TagId, string Message, string Type)
         {
           using(StreamWriter sw=new StreamWriter(FilePath.LogPath,true))
             {
-                await sw.WriteLineAsync(TagId+"=>"+Type+"=>"+Message);
+                await sw.WriteLineAsync(TagId+"=>"+Type+"=>"+Message+"=>"+DateTime.Now.ToShortDateString());
                 sw.Close();
             }  
         }

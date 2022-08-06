@@ -19,3 +19,122 @@
 1005=>Info=>Employee List Fetched
 1004=>Info=>Employee with Employee Id 104 is deleted successfully
 1005=>Info=>Employee List Fetched
+1005=>Info=>Employee List Fetched
+1005=>Info=>Employee List Fetched
+1006=>Info=>IT
+1001=>Info=>Employee Added sucessfully
+1005=>Info=>Employee List Fetched
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1006=>Info=>IT=>8/6/2022
+1001=>Info=>Employee Added sucessfully=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1004=>Info=>Employee with Employee Id 101 is deleted successfully=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1006=>Info=>IT,Testing=>8/6/2022
+1002=>Info=>Employee updated sucessfully=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1006=>Info=>IT,Testing,Development=>8/6/2022
+1001=>Info=>Employee Added sucessfully=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1002=>Info=>Employee with $102 not existed=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1006=>Info=>Admin=>8/6/2022
+1002=>Info=>Employee updated sucessfully=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1004=>Info=>Employee with Employee Id 102 is does not existed=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1006=>Info=>IT,Testing=>8/6/2022
+1001=>Info=>Employee Added sucessfully=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1006=>Info=>Testing,IT=>8/6/2022
+1002=>Info=>Employee updated sucessfully=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1004=>Info=>Employee with Employee Id 101 is deleted successfully=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1007=>Info=>Token Generated=>8/6/2022
+1005=>Info=>Employee List Fetched=>8/6/2022
+1003=>Info=>Employee List Fetched=>8/6/2022

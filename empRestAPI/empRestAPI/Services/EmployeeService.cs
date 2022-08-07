@@ -149,5 +149,23 @@ namespace empRestAPI.Services
             }
             return departments;
         }
+        public async Task<bool> checkEmployeeNameExsited(string EmployeeName)
+        {
+            bool result = false;
+            try
+            {
+                List<Employee> employees = await GetEmployees();
+                result = employees.Count > 0 ? (employees.Where(t => t.EmployeeName == EmployeeName).Count() > 0 ? true : false) : false;
+                logService.Log(LogService.AddEmployee, "checkEmployeeNameExsited method executed", "Info");
+            }
+            catch(Exception ex)
+            {
+                logService.Log(LogService.AddEmployee, ex.Message,"Error");
+            }
+           
+            return result;
+        }
+        
+
     }
 }

@@ -46,7 +46,7 @@ namespace EmpRestApI.Test
         public void AddDepartment()
         {
             //Arrange
-            DataInput dataInput = new DataInput() { EmployeeName = "RRKKKK", Department="Testing,IT"};
+            DataInput dataInput = new DataInput() { EmployeeName = "KKKK", Department="Testing,IT"};
             //Act            
             var response = employeeController.AddEmployee(dataInput).Result as OkObjectResult;
             //Assert
@@ -60,9 +60,9 @@ namespace EmpRestApI.Test
             //Arrange
             DataInput dataInput = new DataInput() { EmployeeName = "RRK", Department = "Testing,IT" };
             //Act            
-            var response = employeeController.AddEmployee(dataInput).Result as OkObjectResult;
+            var response = employeeController.AddEmployee(dataInput).Result as BadRequestObjectResult;
             //Assert
-            Assert.IsType<OkObjectResult>(response);
+            Assert.IsType<BadRequestObjectResult>(response);
             Assert.Equal($"EmployeeName {dataInput.EmployeeName} already existed", response.Value.ToString());
 
         }

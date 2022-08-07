@@ -13,6 +13,7 @@ namespace empRestAPI.Services
         public Task<string> DeleteEmployee(int EmployeeID);
         public Task<Employee> GetEmployee(int EmployeeID);
         public Task<List<Employee>> GetEmployees();
+        public Task<bool> checkEmployeeNameExsited(string EmployeeName);
 
     }
 }

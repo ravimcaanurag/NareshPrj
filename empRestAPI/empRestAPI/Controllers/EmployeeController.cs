@@ -19,34 +19,40 @@ namespace empRestAPI.Controllers
         public EmployeeController(IEmployee _employeeService)
         {
             employeeService = _employeeService;
+
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddEmployee([FromBody]DataInput dataInput)
+        public async Task<IActionResult> AddEmployee([FromBody] DataInput dataInput)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (dataInput == null) return BadRequest("Enter Employee Details");            
             if (string.IsNullOrWhiteSpace(dataInput.Department)) return BadRequest("Enter Department Name");
             if (string.IsNullOrWhiteSpace(dataInput.EmployeeName)) return BadRequest("Enter Employee Name");
-            var result = await employeeService.AddEmployee(dataInput);
-            return Ok(result);
+            var result = await employeeService.checkEmployeeNameExsited(dataInput.EmployeeName);
+            if (result) return BadRequest($"EmployeeName {dataInput.EmployeeName} already existed");
+            var output = await employeeService.AddEmployee(dataInput);
+            return Ok(output);
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateEmployee(DataInput dataInput)
+        public async Task<IActionResult> UpdateEmployee([FromBody] DataInput dataInput)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (dataInput == null) return BadRequest("Enter Employee Details");            
             if (string.IsNullOrWhiteSpace(dataInput.Department)) return BadRequest("Enter Department Name");
             if (string.IsNullOrWhiteSpace(dataInput.EmployeeName)) return BadRequest("Enter Employee Name");
-            if (dataInput.EmployeeID==0) return BadRequest("Enter Employee ID");
-
-            var result = await employeeService.UpadteEmployee(dataInput);
-            return Ok(result);
+            if (dataInput.EmployeeID == 0) return BadRequest("Enter Employee ID");
+            var result = await employeeService.GetEmployee(dataInput.EmployeeID);
+            if (result == null) return NotFound($"Employee with {dataInput.EmployeeID } not existed");
+            var output = await employeeService.UpadteEmployee(dataInput);
+            return Ok(output);
         }
         [HttpDelete("{employeeId}")]
-        public async Task<IActionResult> DeleteEmployee(int employeeId)
+        public async Task<IActionResult> DeleteEmployee([FromRoute]int employeeId)
         {
             if (employeeId == 0) return BadRequest("Enter Employee ID");
-            var result = await employeeService.DeleteEmployee(employeeId);
-            return Ok(result);
+            var result = await employeeService.GetEmployee(employeeId);
+            if (result == null) return NotFound($"Employee with ID {employeeId } not existed");
+            var output = await employeeService.DeleteEmployee(employeeId);
+            return Ok(output);
         }
         [HttpGet]
         public async Task<IActionResult> GetEmployees()
@@ -55,15 +61,11 @@ namespace empRestAPI.Controllers
             return Ok(result);
         }
         [HttpGet("{employeeId}")]
-        public async Task<IActionResult> GetEmployee(int employeeId)
+        public async Task<IActionResult> GetEmployee([FromRoute]int employeeId)
         {
             if (employeeId == 0) return BadRequest("Enter Employee ID");
             var result = await employeeService.GetEmployee(employeeId);
-            if (result == null)
-            {
-                return NotFound();
-            }
-
+            if (result == null) return NotFound($"Employee with ID {employeeId } not existed");
             return Ok(result);
         }
 

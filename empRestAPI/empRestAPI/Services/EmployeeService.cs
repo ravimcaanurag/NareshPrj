@@ -9,13 +9,11 @@ namespace empRestAPI.Services
 {
     public class EmployeeService : IEmployee
     {
-        private readonly IJsonUtil jsonService;
-        private readonly IDepartment departmentService;
+        private readonly IJsonUtil jsonService;        
         private readonly ILog logService;
-        public EmployeeService(IJsonUtil _jsonService, IDepartment _departmentService, ILog _logService)
+        public EmployeeService(IJsonUtil _jsonService, ILog _logService)
         {
-            jsonService = _jsonService;
-            departmentService = _departmentService;
+            jsonService = _jsonService;            
             logService = _logService;
         }
         public async Task<string> AddEmployee(DataInput dataInput)

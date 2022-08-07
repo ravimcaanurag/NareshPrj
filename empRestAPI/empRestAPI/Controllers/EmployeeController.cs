@@ -22,8 +22,9 @@ namespace empRestAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddEmployee(DataInput dataInput)
+        public async Task<IActionResult> AddEmployee([FromBody]DataInput dataInput)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
             if (string.IsNullOrWhiteSpace(dataInput.Department)) return BadRequest("Enter Department Name");
             if (string.IsNullOrWhiteSpace(dataInput.EmployeeName)) return BadRequest("Enter Employee Name");
             var result = await employeeService.AddEmployee(dataInput);
@@ -32,6 +33,7 @@ namespace empRestAPI.Controllers
         [HttpPut]
         public async Task<IActionResult> UpdateEmployee(DataInput dataInput)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
             if (string.IsNullOrWhiteSpace(dataInput.Department)) return BadRequest("Enter Department Name");
             if (string.IsNullOrWhiteSpace(dataInput.EmployeeName)) return BadRequest("Enter Employee Name");
             if (dataInput.EmployeeID==0) return BadRequest("Enter Employee ID");
@@ -57,6 +59,11 @@ namespace empRestAPI.Controllers
         {
             if (employeeId == 0) return BadRequest("Enter Employee ID");
             var result = await employeeService.GetEmployee(employeeId);
+            if (result == null)
+            {
+                return NotFound();
+            }
+
             return Ok(result);
         }
 
